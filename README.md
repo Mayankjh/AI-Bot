@@ -1,4 +1,4 @@
-# Demo: A Simple Voice AI Bot with Web Speech API and Node.js
+#  A Simple Voice AI Bot with Web Speech API and Node.js
 
 This is how this web app works:
 

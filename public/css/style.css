@@ -1,0 +1,106 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {
+  height: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 300;
+  background: #f7f7f7 url(../images/bots.png) 0 0 no-repeat;
+  background-size: cover;
+  color: #333;
+}
+footer {
+  font-size: 0.75em;
+  color: silver;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+}
+footer a {
+  color: #f80;
+}
+header {
+  margin: 2em 0;
+  text-align: center;
+  font-weight: bolder;
+}
+h1, h2, h3 {
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  font-weight: bolder;
+}
+h1 {
+  font-weight: 400;
+  font-size: 4em;
+  color:white;
+}
+h2 {
+  font-weight: 300;
+  margin-top: 0.5em;
+}
+p{
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
+section {
+  margin: 1.5em auto;
+  width: 490px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(156, 39, 176, 0.7);
+  color: White !important;
+  border: groove 5px rgba(3, 0, 0, 0.5);
+}
+button {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 200px;
+  height: 200px;
+  border: 0;
+  border-radius: 50%;
+  padding: .7em 1em;
+  margin: 4em auto 3em;
+  text-align: center;
+  color: #fff;
+  background: #1C2331;
+  box-shadow: 2px 5px 30px rgba(63, 200, 201, .4);
+
+  will-change: transform, filter;
+  transition: all 0.3s ease-out;
+}
+button .fa {
+  font-size: 130px;
+  line-height: 200px;
+  margin: 0;
+  text-shadow: 1px 2px 2px #2a8b90;
+}
+button:hover {
+  transform: scale(.92);
+}
+button:active {
+  filter: brightness(.8);
+}
+button:focus {
+  outline: 0;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 1.3em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-left: 10px;
+}
+.fa-github::before {
+    content: "\f09b";
+}
